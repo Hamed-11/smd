@@ -21,3 +21,4 @@ public function store(Request $request)
     // Model::create([...]);
 
     return redirect()->route('index');
+    ?>
