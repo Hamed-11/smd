@@ -10,4 +10,9 @@ class Course extends Model
     use HasFactory;
 
     protected $fillable = ['title', 'description', 'duration'];
+    // رابطه با مدل Teacher
+    public function teacher()
+    {
+        return $this->belongsTo(Teacher::class);
+    }
 }
