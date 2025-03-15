@@ -1,0 +1,118 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #009688;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+button {
+    background: #27ae60;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background: #219150;
+}
+
+button.delete-btn {
+    background: #e74c3c;
+}
+
+button.delete-btn:hover {
+    background: #c0392b;
+}
+
+.form-container {
+    margin-top: 20px;
+}
